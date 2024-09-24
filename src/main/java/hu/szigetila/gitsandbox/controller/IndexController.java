@@ -10,7 +10,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
-        log.info("/index");
+        log.info("/index v1");
         return "index";
     }
 }
